@@ -1,0 +1,3 @@
+This code shows how the temperature variables utilitized in a dicrete choice irrigation adoption framework are constructed. I use gridded dataset on daily maximum and minimum temperatures from 1988-2022<img width="468" height="22" alt="image" src="https://github.com/user-attachments/assets/04553f6d-8070-463e-8cbc-2a82053ae7bf" />
+Maximum and minimum temperatures are first utiized to construct average temperature and extreme heat temperature. 
+I assign gridded temperature data to fields by computing the area-weighted mean of all raster cells overlapping each field, for each year and climate variable.
